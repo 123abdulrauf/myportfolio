@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Rauf Khan | Infrastructure & Virtualization Engineer</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              500: '#3b82f6',
+              600: '#2563eb',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .grid-bg {
+      background-size: 32px 32px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- Navigation -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#hero" class="text-lg font-bold tracking-tight flex items-center gap-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse"></span>
+        <span class="font-mono text-slate-200">arkhan<span class="text-blue-500">.sys</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#skills" class="hover:text-white transition">Core Skills</a>
+        <a href="#experience" class="hover:text-white transition">Experience</a>
+        <a href="#certifications" class="hover:text-white transition">Certifications</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </nav>
+      <a href="mailto:abdurraufl166@gmail.com" class="text-xs font-mono font-semibold px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white transition shadow-lg shadow-blue-500/20">
+        Get In Touch
+      </a>
+    </div>
+  </header>
+
+  <main class="pt-16">
+    <!-- Hero Section -->
+    <section id="hero" class="relative py-24 md:py-32 grid-bg border-b border-slate-900 overflow-hidden">
+      <div class="max-w-6xl mx-auto px-6 relative z-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-mono mb-6">
+          <i data-lucide="terminal" class="w-3.5 h-3.5"></i>
+          CCNA & CCNP Certified Infrastructure Engineer
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white max-w-3xl leading-tight">
+          Abdul Rauf Khan
+        </h1>
+        <p class="mt-4 text-xl sm:text-2xl text-blue-400 font-medium">
+          Infrastructure & Virtualization Engineer
+        </p>
+        <p class="mt-4 text-slate-400 max-w-2xl leading-relaxed">
+          Specializing in enterprise virtualization (VMware ESXi, NexaVM), zero-downtime cross-platform VM migrations, SAN storage provisioning, and secure network switching.
+        </p>
+
+        <div class="mt-8 flex flex-wrap gap-4 items-center">
+          <a href="mailto:abdurraufl166@gmail.com" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition">
+            <i data-lucide="mail" class="w-4 h-4"></i> Contact Directly
+          </a>
+          <a href="https://linkedin.com/in/araufl166" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 font-medium text-sm transition">
+            <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn Profile
+          </a>
+          <div class="flex items-center gap-2 text-xs font-mono text-slate-400 ml-auto">
+            <i data-lucide="map-pin" class="w-4 h-4 text-blue-400"></i> Islamabad, Pakistan
+          </div>
+        </div>
+
+        <!-- Metrics Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-10 border-t border-slate-800/80">
+          <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+            <div class="text-2xl font-bold font-mono text-white">1.5+ Years</div>
+            <div class="text-xs text-slate-400 mt-1">Enterprise Infra Experience</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+            <div class="text-2xl font-bold font-mono text-blue-400">35+ VMs</div>
+            <div class="text-xs text-slate-400 mt-1">Migrated (Zero Downtime)</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+            <div class="text-2xl font-bold font-mono text-emerald-400">CCNA & CCNP</div>
+            <div class="text-xs text-slate-400 mt-1">Certified Routing & Switching</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+            <div class="text-2xl font-bold font-mono text-purple-400">20+ Clients</div>
+            <div class="text-xs text-slate-400 mt-1">Hardware & Server Support</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="py-20 max-w-6xl mx-auto px-6 border-b border-slate-900">
+      <div class="mb-12">
+        <h2 class="text-xs font-mono tracking-widest text-blue-400 uppercase font-semibold">Competencies</h2>
+        <p class="text-2xl sm:text-3xl font-bold text-white mt-1">Technical Architecture & Stack</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800/80 flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 text-blue-400 flex items-center justify-center mb-4">
+              <i data-lucide="server" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-white text-lg mb-2">Virtualization & Compute</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Hypervisor configuration, cluster provisioning, hardware racking, and VM orchestration.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">VMware ESXi</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">vCenter Server</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">NexaVM</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Dell PowerEdge R750xs</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">H3C HCI</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800/80 flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center mb-4">
+              <i data-lucide="network" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-white text-lg mb-2">Enterprise Networking</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              L2/L3 design, virtual distributed switches, site heat-mapping, and secure routing topologies.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Cisco LAN / WAN</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">VLANs & Trunks</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Virtual Switches</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Ruijie Wi-Fi Survey</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Firewalls</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800/80 flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400 flex items-center justify-center mb-4">
+              <i data-lucide="hard-drive" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-white text-lg mb-2">Storage & Security</h3>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Storage-area networking, policy enforcement, endpoint hardening, and proactive health audits.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">SAN / NAS Storage</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Dell PowerStore 500T</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">RAID Arrays</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Ivanti Neurons</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Trend Micro</span>
+            <span class="px-2.5 py-1 rounded bg-slate-800 text-xs text-slate-300 font-mono">Forescout</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="py-20 max-w-6xl mx-auto px-6 border-b border-slate-900">
+      <div class="mb-12">
+        <h2 class="text-xs font-mono tracking-widest text-blue-400 uppercase font-semibold">Track Record</h2>
+        <p class="text-2xl sm:text-3xl font-bold text-white mt-1">Professional Experience</p>
+      </div>
+
+      <div class="space-y-8">
+        <!-- Role 1 -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-slate-900/40 border border-slate-800 relative">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-4 mb-4">
+            <div>
+              <h3 class="text-lg font-bold text-white">Enterprise Support Engineer</h3>
+              <p class="text-blue-400 text-sm font-medium">AWAIS-INTERNATIONAL</p>
+            </div>
+            <span class="text-xs font-mono text-slate-400 bg-slate-800/60 px-3 py-1 rounded-md self-start sm:self-auto">
+              Feb 2026 – Present
+            </span>
+          </div>
+          <ul class="space-y-2.5 text-sm text-slate-300 leading-relaxed list-disc list-inside">
+            <li>Led deployment of NexaVM virtualization platform across 7 dual-socket servers, successfully migrating 25 virtual machines ahead of deadline with 0 downtime.</li>
+            <li>Executed cross-platform migration of 10 VMs from VMware to NexaVM remotely, independently provisioning target hosts.</li>
+            <li>Configured virtual switches, VLANs, and SAN storage across 4 distinct enterprise client environments.</li>
+            <li>Delivered L1/L2 SLA-driven hypervisor and storage incident support for client environments.</li>
+            <li>Conducted Wi-Fi and physical security site planning: optimized campus AP heat-maps (Ruijie) and reduced surveillance camera footprint from 48 to 32 while keeping 100% target coverage.</li>
+          </ul>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-slate-900/40 border border-slate-800 relative">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-4 mb-4">
+            <div>
+              <h3 class="text-lg font-bold text-white">System Engineer</h3>
+              <p class="text-blue-400 text-sm font-medium">AHS-TECHNOLOGIES</p>
+            </div>
+            <span class="text-xs font-mono text-slate-400 bg-slate-800/60 px-3 py-1 rounded-md self-start sm:self-auto">
+              Nov 2024 – Jan 2026
+            </span>
+          </div>
+          <ul class="space-y-2.5 text-sm text-slate-300 leading-relaxed list-disc list-inside">
+            <li>Supported deployment and maintenance of VMware ESXi & vCenter Server across 15+ virtualized hosts in enterprise data centers.</li>
+            <li>Physically racked and provisioned Dell PowerEdge R750xs servers and a Dell PowerStore 500T storage system.</li>
+            <li>Administered endpoint security policies via Ivanti, Trend Micro, and Forescout, achieving a 20% reduction in system security threats.</li>
+            <li>Replaced and tested critical hardware components (NICs, processors, fans) across servers for 20+ enterprise clients.</li>
+            <li>Designed and documented SAN/NAS storage, RAID configs, and H3C HCI topologies.</li>
+          </ul>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="p-6 sm:p-8 rounded-2xl bg-slate-900/40 border border-slate-800 relative">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-4 mb-4">
+            <div>
+              <h3 class="text-lg font-bold text-white">Network Administrator Intern</h3>
+              <p class="text-blue-400 text-sm font-medium">National IT Board (NITB)</p>
+            </div>
+            <span class="text-xs font-mono text-slate-400 bg-slate-800/60 px-3 py-1 rounded-md self-start sm:self-auto">
+              Aug 2024 – Oct 2024
+            </span>
+          </div>
+          <ul class="space-y-2.5 text-sm text-slate-300 leading-relaxed list-disc list-inside">
+            <li>Supported enterprise LAN/WAN infrastructure serving 200+ users with proactive monitoring and log troubleshooting.</li>
+            <li>Collaborated with Infrastructure & Cloud teams to configure firewall rules, VLAN subnetting, and routine firmware updates for government systems.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Education -->
+    <section id="certifications" class="py-20 max-w-6xl mx-auto px-6 border-b border-slate-900">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <!-- Certifications -->
+        <div>
+          <h2 class="text-xs font-mono tracking-widest text-blue-400 uppercase font-semibold mb-2">Credentials</h2>
+          <h3 class="text-2xl font-bold text-white mb-6">Licenses & Certifications</h3>
+          <div class="space-y-3">
+            <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800 flex items-start gap-4">
+              <i data-lucide="award" class="w-6 h-6 text-blue-400 shrink-0 mt-0.5"></i>
+              <div>
+                <p class="font-semibold text-white">Cisco Certified Network Professional (CCNP)</p>
+                <p class="text-xs text-slate-400 font-mono">Corvit Networks, Islamabad</p>
+              </div>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800 flex items-start gap-4">
+              <i data-lucide="award" class="w-6 h-6 text-blue-400 shrink-0 mt-0.5"></i>
+              <div>
+                <p class="font-semibold text-white">Cisco Certified Network Associate (CCNA)</p>
+                <p class="text-xs text-slate-400 font-mono">Corvit Networks, Islamabad</p>
+              </div>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800 flex items-start gap-4">
+              <i data-lucide="check-circle" class="w-6 h-6 text-emerald-400 shrink-0 mt-0.5"></i>
+              <div>
+                <p class="font-semibold text-white">H3C Certified Sales & Technical (Expert L3)</p>
+                <p class="text-xs text-slate-400 font-mono">H3C Enterprise Systems</p>
+              </div>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800 flex items-start gap-4">
+              <i data-lucide="check-circle" class="w-6 h-6 text-emerald-400 shrink-0 mt-0.5"></i>
+              <div>
+                <p class="font-semibold text-white">Ivanti Certified: Patch Mgmt, Intelligence & Neurons</p>
+                <p class="text-xs text-slate-400 font-mono">Ivanti Platforms</p>
+              </div>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800 flex items-start gap-4">
+              <i data-lucide="check-circle" class="w-6 h-6 text-emerald-400 shrink-0 mt-0.5"></i>
+              <div>
+                <p class="font-semibold text-white">Oracle Foundations Associate</p>
+                <p class="text-xs text-slate-400 font-mono">Oracle University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education & Leadership -->
+        <div>
+          <h2 class="text-xs font-mono tracking-widest text-blue-400 uppercase font-semibold mb-2">Background</h2>
+          <h3 class="text-2xl font-bold text-white mb-6">Education & Leadership</h3>
+          <div class="space-y-4">
+            <div class="p-5 rounded-xl bg-slate-900/50 border border-slate-800">
+              <span class="text-xs font-mono text-blue-400">2020 – 2024</span>
+              <h4 class="text-lg font-bold text-white mt-1">BS Information Technology</h4>
+              <p class="text-sm text-slate-300">Quaid-i-Azam University, Islamabad</p>
+            </div>
+            <div class="p-5 rounded-xl bg-slate-900/50 border border-slate-800">
+              <span class="text-xs font-mono text-blue-400">Jul 2023 – Aug 2024</span>
+              <h4 class="text-lg font-bold text-white mt-1">IT Seminar & Workshop Organizer</h4>
+              <p class="text-sm text-slate-300">Quaid-i-Azam University</p>
+              <p class="text-xs text-slate-400 mt-2">
+                Conducted 10+ hands-on technical workshops on Cloud, Networking, and Infrastructure with 500+ student attendees and 15+ industry guest leads.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section id="contact" class="py-20 max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-extrabold text-white">Let's Discuss Infrastructure Projects</h2>
+      <p class="text-slate-400 max-w-md mx-auto mt-2 text-sm">
+        Available for enterprise virtualization, migration contracts, and network engineering opportunities.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="mailto:abdurraufl166@gmail.com" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 font-mono text-sm text-white font-medium transition inline-flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4"></i> abdurraufl166@gmail.com
+        </a>
+        <a href="tel:+923473564037" class="px-6 py-3 rounded-lg bg-slate-900 border border-slate-800 hover:bg-slate-800 font-mono text-sm text-slate-200 transition inline-flex items-center gap-2">
+          <i data-lucide="phone" class="w-4 h-4"></i> +92 347 3564037
+        </a>
+      </div>
+      <p class="mt-16 text-xs font-mono text-slate-600">
+        © 2026 Abdul Rauf Khan. Built with Tailwind CSS. Hosted on GitHub Pages.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
